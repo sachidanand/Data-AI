@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Home | Portfolio template</title>
+    <meta name="description" content="Page-specific description">
+    <meta name="keywords" content="Page-specific keywords">
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="static/images/favicons/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="static/images/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="static/images/favicons/apple-touch-icon-precomposed.png">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,300,400,600,700,800%7COpen+Sans+Condensed:300&amp;subset=latin,cyrillic"
+        rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="static/css/screen.min.css">
+    <link rel="stylesheet" href="static/css/custom.min.css">
+    <script src="static/js/head.min.js"></script>
+</head>
+
+<body>
+    <script>progressJs().setOptions({ overlayMode: true, theme: 'custom' }).start();
+        if (window.attachEvent) {
+            window.attachEvent('onload', function () { progressJs().end(); });
+        } else {
+            if (window.onload) {
+                var curronload = window.onload;
+                var newonload = function () {
+                    curronload();
+                    progressJs().end();
+                };
+                window.onload = newonload;
+            } else {
+                window.onload = function () { progressJs().end(); };
+            }
+        }</script><!-- Header-->
+    <header class="main-header">
+        <div class="first-nav">
+            <div class="container">
+                <nav class="first-nav__links">
+                    <ul>
+                        <li><a class="is-selected">Data And AI Company </a></li>
+                         
+                    </ul>
+                </nav><a class="first-nav__navcontrol icon icon_menu js-navcontrol" href="#">Menu</a>
+            </div>
+        </div>
+        <div class="second-nav js-nav">
+            <div class="container"><a class="second-nav__logo"><span>D&AI </span></a>
+                <nav class="menu">
+                    <ul>
+                        <li><a class="js-link js-anchor is-selected" href="#home">Home</a></li>
+                        <li><a class="js-link js-anchor" href="#about">About</a></li>
+                        <li><a class="js-link js-anchor" href="#services">Our Offerings</a></li>
+                        <li><a class="js-link js-anchor" href="#process">Execution Model</a></li>
+                        <li><a class="js-link js-anchor" href="#projects">GenAI Solutions </a></li>
+                        <li><a class="js-link js-anchor" href="#testimonials">Customers Testimonials</a></li>
+                        <li><a class="js-link js-anchor" href="#contacts">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header><!-- Home section-->
+    <section class="home-section" id="home">
+        <div class="home-section__bg"></div>
+        <div class="home-section__overlay">
+            <div class="container">
+                <header class="home-section__header">
+                    <h1>Data And AI</h1>
+                    <h2>Data and GenAI consultant.</h2>
+                </header>
+            </div>
+        </div>
+    </section><!-- About section-->
+    <section class="about-section" id="about">
+        <div class="container">
+            <div class="about-card">
+                <header class="about-card__header">
+                    <h2>About us</h2>
+                    <h4>Data And AI - Unleashing the Power of Information</h4>
+                </header>
+                <div class="about-card__info">
+                    <p>At Data And AI, we are passionate about harnessing the power of data and AI to empower businesses and organizations. We believe data is the lifeblood of success in today's world, and AI is the key to unlocking its true potential..</p>
+                    <blockquote>
+                        <p>Our Mission: To be the trusted partner for businesses seeking to leverage data and AI for informed decision-making, improved efficiency, and a competitive edge.</p>
+                    </blockquote>
+                    <p>Our Values:
+
+Innovation: We are constantly pushing boundaries and exploring new possibilities in the data and AI landscape.
+Collaboration: We believe in the power of teamwork and foster a collaborative environment where data scientists, engineers, and AI specialists work together seamlessly.
+Integrity: Trust is paramount. We are committed to the highest ethical standards and data security practices.
+Results: We are driven by results and dedicated to delivering solutions that generate tangible value for our clients..</p>
+                     <!-- <p class="about-card__info-status"><span>Current status:</span> Available for hire</p> -->
+                </div>
+            </div>
+        </div>
+    </section><!-- Services section-->
+    <section class="common-section" id="services">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>Our Offerings</h2>
+                <h4>At Data And AI, we offer a comprehensive suite of services designed to empower your organization with the transformative potential of data and AI.  Our team of experts collaborates closely with you to understand your specific needs and challenges, then crafts a customized solution that unlocks valuable insights, streamlines operations, and propels you towards data-driven success. Here's a closer look at the core services we provide:</h4>
+            </header>
+            <div class="grid-container">
+                <ul class="services services_advisory">
+                    <li class="services__item icon icon_research">
+                        <h4>GenAI Solutions</h4>
+                        <p>Unleash the power of generative AI to automate tasks, generate creative content, and make data-driven predictions. Our team of AI specialists can tailor solutions to automate repetitive processes, create high-quality marketing copy, or develop predictive models that inform strategic decision-making.</p>
+                    </li>
+                    <li class="services__item icon icon_strategy">
+                        <h4>Data Migrations</h4>
+                        <p>Ensure seamless and secure data transfers with our expert data migration services. We handle the entire process, from planning and execution to validation and post-migration support, minimizing disruption and guaranteeing the integrity of your information.</p>
+                    </li>
+                    <li class="services__item icon icon_improve">
+                        <h4>Data Analytics</h4>
+                        <p>Transform your raw data into actionable insights with our data analytics expertise. Our data scientists leverage advanced tools and techniques to extract meaningful patterns and trends, helping you gain a deeper understanding of your customers, optimize operations, and make informed business decisions.</p>
+                    </li>
+                </ul>
+                <ul class="services services_pm">
+                    <li class="services__item icon icon_plan">
+                        <h4>Data Security</h4>
+                        <p>Safeguard your valuable information with our robust data security solutions. We prioritize data protection, implementing industry-leading security protocols and staying vigilant against evolving cyber threats to ensure your data remains secure.</p>
+                    </li>
+                    <li class="services__item icon icon_recover">
+                        <h4>Data Engineering</h4>
+                        <p>Build a scalable and reliable data foundation with our data engineering services. Our team designs and implements robust data infrastructure that can grow alongside your organization's needs, ensuring efficient data storage, management, and accessibility.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section><!-- Process section-->
+    <section class="common-section" id="process">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>How it works</h2>
+                <h4>At Data And AI, we believe in a collaborative and transparent approach to every project. Here's a breakdown of our typical process, ensuring you're informed and involved at every step:</h4>
+            </header>
+            <div class="grid-container">
+  <ul class="process">
+    <li class="process__step process__step_research is-active">
+      <div class="process__step-icon icon icon_research is-active"></div>
+    </li>
+    <li class="process__step-info process__step-info_research is-active">
+      <h3><span>Step 1</span> &mdash; In-depth Assessment</h3>
+      <p>Our journey begins with a comprehensive assessment of your data environment. We'll analyze your data sources, current hosting infrastructure, and any domain-specific rules that may impact your data strategy. Through open communication, we'll gain a clear understanding of your goals and challenges.</p>
+    </li>
+    <li class="process__step process__step_develop">
+      <div class="process__step-icon icon icon_develop"></div>
+    </li>
+    <li class="process__step-info process__step-info_develop">
+      <h3><span>Step 2</span> &mdash; Create POV and Approach</h3>
+      <p>Based on the assessment, we'll co-create a Point of View (POV) outlining the optimal approach for your specific needs. This includes a comprehensive data strategy, actionable recommendations, and expert suggestions tailored to your unique situation.</p>
+    </li>
+    <li class="process__step process__step_deploy">
+      <div class="process__step-icon icon icon_deploy"></div>
+    </li>
+    <li class="process__step-info process__step-info_deploy">
+      <h3><span>Step 3</span> &mdash; Execution and Implementation</h3>
+      <p>Once the strategy is finalized, our team of experts swings into action. We'll handle the execution and implementation of the chosen solutions, including data migration, data transformation, and any necessary integrations. Throughout this stage, we maintain open communication, keeping you informed of progress and addressing any questions you may have.</p>
+    </li>
+    <li class="process__step process__step_deliver">
+      <div class="process__step-icon icon icon_deliver"></div>
+    </li>
+    <li class="process__step-info process__step-info_deliver">
+      <h3><span>Step 4</span> &mdash; Final Handover & Ongoing Support</h3>
+      <p>Upon successful implementation, we'll conduct a final handover, providing comprehensive reports detailing the completed work and its impact. We'll also discuss next steps for ongoing support and maintenance, ensuring your data-driven success continues well into the future.</p>
+    </li>
+  </ul>
+</div>
+
+        </div>
+    </section><!-- Projects section-->
+    <section class="common-section" id="projects">
+        <header class="common-section__header">
+            <h2>GenAI Solutions </h2>
+            <p>Our suite of data and AI solutions empowers businesses to unlock the full potential of their information.  We offer solutions to streamline data collection, ensure data quality, and enable real-time monitoring. Additionally, we develop custom machine learning models and provide tools for self-service data exploration.  Furthermore, we prioritize data security and can help ensure your practices comply with relevant regulations.  Whether you need to automate tasks, predict future trends, or gain deeper insights from your data, Data And AI has the expertise to help you achieve your goals.</p>
+        </header>
+        <div class="projects-wrap">
+            <div class="grid-container">
+            <div class="projects">
+  <figure class="projects__item">
+    <img src="static/images/projects/1.jpg" alt="Automated Data Collection & Ingestion">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Automated Data Collection & Ingestion</a></figcaption>
+  </figure>
+  <figure class="projects__item">
+    <img src="static/images/projects/2.jpg" alt="Real-Time Data Monitoring & Alerting">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Real-Time Data Monitoring & Alerting</a></figcaption>
+  </figure>
+  <figure class="projects__item">
+    <img src="static/images/projects/5.jpg" alt="Advanced Data Cleansing & Preprocessing">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Advanced Data Cleansing & Preprocessing</a></figcaption>
+  </figure>
+  <figure class="projects__item">
+    <img src="static/images/projects/6.jpg" alt="Self-Service Data Analytics Platform">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Self-Service Data Analytics Platform</a></figcaption>
+  </figure>
+  <figure class="projects__item">
+    <img src="static/images/projects/3.jpg" alt="Machine Learning Model Development & Deployment">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Machine Learning Model Development & Deployment</a></figcaption>
+  </figure>
+  <figure class="projects__item">
+    <img src="static/images/projects/4.jpg" alt="Explainable AI (XAI) & Interpretable Results">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Explainable AI (XAI) & Interpretable Results</a></figcaption>
+  </figure>
+  <figure class="projects__item">
+    <img src="static/images/projects/7.jpg" alt="Data Governance & Regulatory Compliance">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Data Governance & Regulatory Compliance</a></figcaption>
+  </figure>
+  <figure class="projects__item">
+    <img src="static/images/projects/8.jpg" alt="Predictive Maintenance & Anomaly Detection">
+    <figcaption><a class="icon icon_link" href="#" rel="nofollow">Predictive Maintenance & Anomaly Detection</a></figcaption>
+  </figure>
+</div>
+
+            </div>
+        </div>
+    </section><!-- Testimonials section-->
+    <section class="common-section" id="testimonials">
+        <div class="container">
+            <header class="common-section__header">
+                <h2>Testimonials</h2>
+                <p>Hear what our customers are saying!  Our customers are our biggest advocates, and their success stories speak volumes about the value we deliver.</p>
+            </header>
+            <div class="grid-container">
+                <ul class="testimonials">
+                <li class="testimonials__item">
+  <img src="static/images/logos/placeholder.png" alt="GreenTech Solutions">
+  <blockquote>
+    <p class="icon icon_ql">"Data And AI has been a game-changer for our business. Their automated data collection solution has saved us countless hours and improved the accuracy of our reporting. We can now make data-driven decisions with confidence."</p>
+    <cite><span class="name">Sarah Jones,</span><span class="role">CEO</span></cite>
+  </blockquote>
+</li>
+
+<li class="testimonials__item">
+  <img src="static/images/logos/placeholder.png" alt="ABC Company">
+  <blockquote>
+    <p class="icon icon_ql">"We were struggling to make sense of our vast amount of customer data. Data And AI's team helped us develop a custom machine learning model that has identified key trends and allowed us to personalize our marketing campaigns more effectively. We've seen a significant increase in customer engagement since implementing their solution."</p>
+    <cite><span class="name">David Lee,</span><span class="role">Marketing Director</span></cite>
+  </blockquote>
+</li>
+                </ul>
+                <ul class="testimonials">
+                <li class="testimonials__item">
+  <img src="static/images/logos/placeholder.png" alt="SecureData Inc.">
+  <blockquote>
+    <p class="icon icon_ql">"Data security is paramount for our organization. We partnered with Data And AI to ensure our data practices comply with industry regulations. Their expertise in data governance gave us peace of mind and allowed us to focus on our core business."</p>
+    <cite><span class="name">Emily Garcia,</span><span class="role">Chief Compliance Officer</span></cite>
+  </blockquote>
+</li>
+
+<li class="testimonials__item">
+  <img src="static/images/logos/placeholder.png" alt="Innovation Labs">
+  <blockquote>
+    <p class="icon icon_ql">"Data And AI's self-service data analytics platform has empowered our non-technical team members to explore and understand our data. This has fostered a data-driven culture within our company and allowed us to identify new opportunities for growth."</p>
+    <cite><span class="name">Michael Chen,</span><span class="role">Head of Analytics</span></cite>
+  </blockquote>
+</li>
+                </ul>
+            </div>
+        </div>
+    </section><!-- Contacts section-->
+    <div class="contacts-section" id="contacts">
+        <div class="container">
+            <section class="contact-card">
+                <header class="contact-card__header">
+                    <h2>Contact information</h2>
+                    <h4>Data And AI LLC - Seattle USA</h4>
+                </header>
+                <div class="contact-info">
+                    <div class="contact-info__logo">D&AI</div>
+                    <div class="contact-info__group">
+                        <div class="contact-info__additional">
+                            <p>Have questions or need help?  We're here for you! <br> Reach out to us by email at [your email address] <br> or give us a call at [your phone number] 
+                            during business hours. <br> You can also submit your inquiry through our convenient contact form.</p>
+                        </div>
+                        <div class="contact-info__vcard vcard">
+                            <h4 class="fn org">Data And AI</h4>
+                            <p class="role title">Data And AI LLC- Seattle USA</p>
+                            <p class="icon icon_location"><a class="adr js-anchor" href="#gmap"><span
+                                        class="country-name">CountryName</span>,&nbsp;<span
+                                        class="locality">CityName</span></a></p>
+                            <p class="icon icon_mail"><a class="email"
+                                    href="john.doe@example.com">john.doe@example.com</a></p>
+                            <p class="icon icon_phone"><a class="email" href="tel:1111111111">111-111-11-11</a></p>
+                        </div>
+                        <ul class="contact-info__social">
+                            <li><a class="icon icon_fb" rel="nofollow">I'm on Facebook</a></li>
+                            <li><a class="icon icon_twi" rel="nofollow">My Twitter</a></li>
+                            <li><a class="icon icon_gplus" rel="nofollow">I'm on Google+</a></li>
+                            <li><a class="icon icon_vk" rel="nofollow">I'm in Vk</a></li>
+                            <li><a class="icon icon_in" rel="nofollow">My Linkedin profile</a></li>
+                            <li><a class="icon icon_rss" rel="nofollow">RSS feed... maybe</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="gmap" id="gmap"></div>
+    </div><!-- Footer-->
+    <footer class="main-footer">
+        <div class="container">
+            <p class="main-footer__copyright">&copy;&nbsp;<span>Data And AI</span></p><a
+                class="main-footer__gotop icon icon_gotop js-anchor" href="#home">To top!</a>
+           
+        </div>
+    </footer>
+    <script src="static/js/body.min.js"></script>
+</body>
+
+</html>
