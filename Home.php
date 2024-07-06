@@ -18,6 +18,26 @@
     <link rel="stylesheet" href="static/css/screen.min.css">
     <link rel="stylesheet" href="static/css/custom.min.css">
     <script src="static/js/head.min.js"></script>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    var images = [
+    'static/images/img-1.jpeg',
+    'static/images/img-2.jpeg',
+    'static/images/img-3.jpeg',
+    'static/images/img-4.jpeg'
+];
+    var currentIndex = 0;
+    var bgElement = document.querySelector('.home-section__bg');
+
+    function changeBackground() {
+        bgElement.style.backgroundImage = 'url(' + images[currentIndex] + ')';
+        currentIndex = (currentIndex + 1) % images.length; // Loop back to the first image
+        setTimeout(changeBackground, 3000); // Change every 5 seconds
+    }
+
+    changeBackground();
+});
+</script>
 </head>
 
 <body>
