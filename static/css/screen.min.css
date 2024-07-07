@@ -443,7 +443,7 @@ a:hover {
     z-index: 200;
     top: 0;
     left: 0;
-    height: 40px;
+    height: 80px;
     overflow: hidden;
     background-color: #ffa726;
     width: 100%;
@@ -656,7 +656,7 @@ a:hover {
 }
 
 .menu ul {
-    padding-top: 20px;
+    padding-top: 50px;
     padding-bottom: 20px
 }
 
@@ -1611,6 +1611,7 @@ a:hover {
 @media screen and (max-width:960px) {
     .second-nav__logo {
         display: none
+        
     }
 
     .menu {
